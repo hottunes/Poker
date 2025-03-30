@@ -1,0 +1,1 @@
+export { TournamentPrize } from "./TournamentPrize";

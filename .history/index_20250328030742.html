@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Poker Tournament</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;
+                background-image: url("/images/background.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                font-family: "system-ui", sans-serif;
+                color: white;
+            }
+
+            /* 배경 어둡게 하여 UI 가독성 향상 */
+            body::before {
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.7);
+                z-index: 0;
+            }
+
+            /* UI 요소들이 배경 오버레이 위에 표시되도록 */
+            #app {
+                position: relative;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script type="module" src="src/main.js"></script>
+    </body>
+</html>

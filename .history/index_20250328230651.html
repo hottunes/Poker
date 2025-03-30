@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Poker Tournament</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;
+                font-family: "system-ui", sans-serif;
+                color: white;
+            }
+
+            #ad-banner {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 300px;
+                height: 100px;
+                background: rgba(0, 0, 0, 0.8);
+                border: 2px solid #ffd700;
+                border-radius: 10px;
+                padding: 15px;
+                color: white;
+                text-align: center;
+                z-index: 1000;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition: transform 0.2s ease;
+            }
+
+            #ad-banner:hover {
+                transform: scale(1.05);
+            }
+
+            #ad-banner h3 {
+                margin: 0 0 10px 0;
+                color: #ffd700;
+            }
+
+            #ad-banner p {
+                margin: 0;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <div id="ad-banner">
+            <h3>광고 문의</h3>
+            <p>여러분의 광고를 이곳에 게재해보세요!</p>
+            <p>문의: contact@example.com</p>
+        </div>
+        <script type="module" src="src/main.js"></script>
+    </body>
+</html>
