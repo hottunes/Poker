@@ -1,4 +1,4 @@
-# Pro Poker Player Simulator: The Grinder's Edge
+# Pro Poker Player Simulator: Prove Your Edge
 
 A metaverse simulation game where players experience the life of a professional poker player. Built for the 2025 Vibe Coding Game Jam.
 
