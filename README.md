@@ -4,7 +4,6 @@ A metaverse simulation game where players experience the life of a professional 
 
 ## Features
 
--   ThreeJS-based 3D graphics
 -   Tournament simulation system
 -   Character stats and progression
 -   Metaverse portal integration
@@ -35,7 +34,6 @@ npm run build
 
 The project uses:
 
--   ThreeJS for 3D graphics
 -   Vite for development and building
 -   GSAP for animations
 
